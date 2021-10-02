@@ -1,0 +1,23 @@
+{
+  "name": "example-test",
+  "version": "1.0.0",
+  "description": "This repository is for sharing task samples in several programming languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdniels/example-task.git"
+  },
+  "keywords": [
+    "Example",
+    "task"
+  ],
+  "author": "Juan Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdniels/example-task/issues"
+  },
+  "homepage": "https://github.com/jdniels/example-task#readme"
+}
