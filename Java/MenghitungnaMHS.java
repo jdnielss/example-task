@@ -27,13 +27,13 @@ public class Main {
         System.out.print("Masukan nama :");
         nama = input.nextLine(); // Menyimpan nama dari inputan diatas
         System.out.print("Nilai Tugas :");
-        tugas = input.nextInt(); // Menyimpan nama dari inputan diatas
+        tugas = input.nextInt(); // Menyimpan nilai tugas dari inputan diatas dalam bentuk integer
         System.out.print("Nilai UTS :");
-        uts = input.nextInt(); // Menyimpan nama dari inputan diatas
+        uts = input.nextInt(); // Menyimpan nilai uts dari inputan diatas dalam bentuk integer
         System.out.print("Nilau UAS :");
-        uas = input.nextInt(); // Menyimpan nama dari inputan diatas
+        uas = input.nextInt(); // Menyimpan nilai  uas dari inputan diatas dalam bentuk integer
         System.out.print("Nilai absensi :");
-        absensi = input.nextInt(); // Menyimpan nama dari inputan diatas
+        absensi = input.nextInt(); // Menyimpan nilai absensi dari inputan diatas dalam bentuk integer
 
 
         na = (0.15 * tugas + 0.20 * uts + 0.30 * uas + 0.35 * absensi);
