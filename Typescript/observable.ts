@@ -30,3 +30,15 @@ function observable<T>(obj: T, onChange: ObservableChange<T>): T {
     },
   }) as T;
 }
+
+// Contoh penggunaan pada DOM
+// const userObservable = observable<User>(user, (oldValue, newValue) => {
+//   const heading = document.getElementById("heading");
+//   if (heading) {
+//     heading.innerHTML = newValue.name;
+//   }
+// });
+
+// document.getElementById("btn")?.addEventListener("click", () => {
+//   userObservable.name = userObservable.name === "Hello" ? "Aww" : "Hello";
+// });
