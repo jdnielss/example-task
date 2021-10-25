@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("Hello World!")
 
 	// Print and scan inline parameter
-	fmt.Printf("Call me %s", "Erwindo")
+	fmt.Printf("Call me %s", "Erwindo\n")
 
 	// Print without standart library
 	print("This is printed without standart library")
