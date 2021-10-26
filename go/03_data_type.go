@@ -16,10 +16,10 @@ func main() {
 	*/
 
 	someNumeric := 3
-	fmt.Printf("I have %v hobbies", someNumeric) // I have 3 hobbies
+	fmt.Printf("I have %v hobbies\n", someNumeric) // I have 3 hobbies
 
 	someDecimal := 4.5
-	fmt.Printf("I have work %v years as a software enginner", someDecimal)
+	fmt.Printf("I have work %v years as a software enginner\n", someDecimal)
 
 	someString := "This is a string value"
 	fmt.Println(someString)
