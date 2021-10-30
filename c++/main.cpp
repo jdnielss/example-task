@@ -4,6 +4,7 @@
 #include <time.h>
 #include <iomanip>
 
+
 using namespace std;
 
 bool checkIsPrime(int number);
